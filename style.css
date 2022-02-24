@@ -1,0 +1,47 @@
+body{
+    font-family: 'Helvetica 45 Light', sans-serif;
+}
+
+#camera{
+    font-size: 20px;
+    margin-right: 3px;
+    margin-top: 5px;
+    border: 1.5px solid lightgray;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+#camera:hover{
+    filter: brightness(0.5);
+}
+
+#camera:active {
+    filter:contrast(0.5)
+}
+
+#location{
+    font-size: 20px; 
+    border: 1.5px solid lightgray; 
+    margin-top: 5px;
+    padding: 6px 8px; 
+    border-radius: 4px;
+    cursor: pointer
+}
+
+#location:hover {
+    filter: brightness(0.5);
+}
+
+#location:active {
+    filter:contrast(0.5)
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: gray;
+}   
+.nav-pills .nav-link{
+    color: gray;
+    background-color: white;
+}
